@@ -277,10 +277,11 @@ The complete Task 4 pipeline followed a structured, reproducible, and clinically
 
 • Production ready — generalizes reliably and consistently to new unseen patient data
 
+![Confusion Matrix - Logistic Regression](https://github.com/suriya2318/ML_Classification_Evaluation_Imbalanced_Data/blob/main/Final%20Classification%20Model%20Comparison.png)
 
 ## Charts & Visualizations Overview
 
-### Chart 1 — Class Distribution (Bar Chart + Pie Chart)
+### Chart 1 — Class Distribution
 • Left panel: Grouped bar chart showing absolute patient counts for Malignant (212) and Benign (357) with percentage labels on each bar.
 
 • Right panel: Pie chart showing 37.3%/62.7% proportional split with percentage annotations.
@@ -291,7 +292,10 @@ The complete Task 4 pipeline followed a structured, reproducible, and clinically
 
 • Place this chart in the Dataset Overview section immediately after the class distribution table — before any preprocessing or model training code.
 
-## Chart 2 — Confusion Matrix Heatmap (Logistic Regression — Blue)
+![](https://github.com/suriya2318/ML_Classification_Evaluation_Imbalanced_Data/blob/main/Class%20Distribution.png)
+
+
+## Chart 2 — Confusion Matrix Heatmap
 
 • 2×2 blue-scale heatmap with color intensity representing count magnitude in each cell.
 
@@ -303,7 +307,9 @@ The complete Task 4 pipeline followed a structured, reproducible, and clinically
 
 • Place in the Confusion Matrix section immediately after the confusion matrix breakdown interpretation table — this chart is mandatory before any Precision/Recall discussion.
 
-### Chart 3 — ROC Curves (All 3 Models on Same Axes)
+![](https://github.com/suriya2318/ML_Classification_Evaluation_Imbalanced_Data/blob/main/Final%20Classification%20Model%20Comparison.png)
+
+### Chart 3 — ROC Curves 
 • Single chart with three ROC curves: Logistic Regression (blue), Balanced LR (teal), Decision Tree (amber).
 
 • Black dashed diagonal line shows random classifier performance (AUC = 0.50) as the lower bound reference.
@@ -315,6 +321,8 @@ The complete Task 4 pipeline followed a structured, reproducible, and clinically
 • X-axis = False Positive Rate (1 − Specificity), Y-axis = True Positive Rate (Recall/Sensitivity).
 
 • Place in the ROC Curve & AUC section immediately after the AUC results table — essential for comparing all three models' discrimination ability at a single glance.
+
+![](https://github.com/suriya2318/ML_Classification_Evaluation_Imbalanced_Data/blob/main/Logistic%20Regression.png)
 
 ### Chart 4 — Final Metrics Comparison Grouped Bar Chart
 • Grouped bar chart with 5 metric clusters — each cluster shows all 3 models side by side.
@@ -329,7 +337,9 @@ The complete Task 4 pipeline followed a structured, reproducible, and clinically
 
 • Place in the Final Model Comparison section immediately after the complete 3-model comparison table.
 
-### Chart 5 — Confusion Matrix Heatmap (Decision Tree — Orange)
+![](https://github.com/suriya2318/ML_Classification_Evaluation_Imbalanced_Data/blob/main/ROC%20Curve%20-%20Logistic%20Regression.png)
+
+### Chart 5 — Confusion Matrix Heatmap 
 
 • Same 2×2 format as Chart 2 but with distinctly different orange color scheme for immediate visual differentiation.
 
@@ -338,6 +348,8 @@ The complete Task 4 pipeline followed a structured, reproducible, and clinically
 • Higher False Positive count confirms Decision Tree is the less safe choice for cancer diagnosis deployment.
 
 • Place in the Decision Tree Comparison section after the Decision Tree classification report — before the final model selection justification.
+
+![](https://github.com/suriya2318/ML_Classification_Evaluation_Imbalanced_Data/blob/main/Confusion%20Matrix%20Decision%20Tree.png)
 
 ## Project Insights
 • Accuracy is a completely misleading metric for imbalanced medical classification — a model predicting all patients as Benign would score 62.7% accuracy while detecting zero cancer cases.
