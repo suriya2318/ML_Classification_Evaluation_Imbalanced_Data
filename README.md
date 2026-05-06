@@ -307,7 +307,7 @@ The complete Task 4 pipeline followed a structured, reproducible, and clinically
 
 • Place in the Confusion Matrix section immediately after the confusion matrix breakdown interpretation table — this chart is mandatory before any Precision/Recall discussion.
 
-![](https://github.com/suriya2318/ML_Classification_Evaluation_Imbalanced_Data/blob/main/Final%20Classification%20Model%20Comparison.png)
+![](https://github.com/suriya2318/ML_Classification_Evaluation_Imbalanced_Data/blob/main/ROC%20Curve%20-%20Logistic%20Regression.png)
 
 ### Chart 3 — ROC Curves 
 • Single chart with three ROC curves: Logistic Regression (blue), Balanced LR (teal), Decision Tree (amber).
@@ -337,7 +337,7 @@ The complete Task 4 pipeline followed a structured, reproducible, and clinically
 
 • Place in the Final Model Comparison section immediately after the complete 3-model comparison table.
 
-![](https://github.com/suriya2318/ML_Classification_Evaluation_Imbalanced_Data/blob/main/ROC%20Curve%20-%20Logistic%20Regression.png)
+![](https://github.com/suriya2318/ML_Classification_Evaluation_Imbalanced_Data/blob/main/Final%20Classification%20Model%20Comparison.png)
 
 ### Chart 5 — Confusion Matrix Heatmap 
 
